@@ -1,0 +1,16 @@
+1、HBase 创表语句
+create 'event_logs','info'
+
+表名：event_logs
+列簇：info
+列标签为各日志字段名称：
+	en 事件名称
+	ver 版本号
+	pl 平台名称
+	sdk sdk版本号
+	u_ud 用户id，唯一标识访客（用户）
+	u_mid 会员id，业务系统的用户id，即注册用户
+	u_sd 会话id，标识一次会话
+	c_time 客户端时间
+	l  平台语言，window.navigator.language
+	b_iev 浏览器信息，window.navigator.userAgent

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+		<name>collector_new_install_user</name>
+		<value>com.ibeifeng.offline.data.analysis.platform.stats.nu.StatsUserNewInstallUserCollector</value>
+	</property>
+
+	<property>
+		<name>collector_browser_new_install_user</name>
+		<value>com.ibeifeng.offline.data.analysis.platform.stats.nu.StatsDeviceBrowserNewInstallUserCollector</value>
+	</property>
+	<property>
+		<name>collector_active_user</name>
+		<!-- 具体collector类的完全限定名 -->
+		<value>com.ibeifeng.offline.data.analysis.platform.stats.au.ActiveUserCollector</value>
+	</property>
+
+	<property>
+		<name>collector_browser_active_user</name>
+		<value>com.ibeifeng.offline.data.analysis.platform.stats.au.ActiveUserBrowserCollector</value>
+	</property>
+	
+	<property>
+		<name>collector__active_member</name>
+		<value>com.ibeifeng.offline.data.analysis.platform.stats.mem.ActiveMemberCollector</value>
+	</property>
+	
+	<property>
+		<name>collector_browser_active_member</name>
+		<value>com.ibeifeng.offline.data.analysis.platform.stats.mem.ActiveMemberBrowserCollector</value>
+	</property>
+	
+	
+</configuration>
